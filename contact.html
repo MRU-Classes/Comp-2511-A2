@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="Author" content="Kirill Shabanov">
+    
+    <meta name="Description" content="Get in touch with me through the contact page. Find email, social links, or other ways to connect.">
+
+    <meta name="format-detection" content="telephone=no">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    
+    <title>Contact</title>
+</head>
+
+<body id="top">
+    <header class="header-container">
+
+        <a href="index.html">
+            <img id="header-logo" src="images/logo/logo.jpg" alt="Main Logo">
+        </a>
+
+        <section class="header-title">
+            <h1>KIRILL SHABANOV</h1>
+            <p>CS Student · Systems Developer · Low-Level & Web-Focused</p>
+        </section>
+
+    </header>
+    
+    <!-- Main Navigation Menu -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a id="current-page" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 id="page-title">Contact Me</h1>
+
+        <form class="contact-form-container" method="post" action="#">
+            <div class="contact-user-container">
+                <label for="first-name" class="sr-only">First Name</label>
+                <input id="first-name" name="user-data" type="text" placeholder="*First Name" size="25" maxlength="50" required>
+
+                <label for="last-name" class="sr-only">Last Name</label>
+                <input id="last-name" name="user-data" type="text" placeholder="*Last Name" size="25" maxlength="50" required>
+
+                <label for="email" class="sr-only">Email</label>
+                <input id="email" name="user-data" type="email" placeholder="*Email" size="25" maxlength="50" required>
+
+                <label for="phone" class="sr-only">Phone</label>
+                <input id="phone" name="user-data" type="tel" placeholder="Phone" size="25" maxlength="12" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}">
+
+                <label for="message" class="sr-only">Message</label>
+                <textarea id="message" name="message" placeholder="Message (required)" rows="5" cols="75" maxlength="750" required></textarea>
+            </div>
+
+            <div class="submit-reset-container">
+                <div><input id="submit" name="submit" type="submit" value="submit"></div>
+                <div><input id="reset" name="reset" type="reset" value="reset"></div>
+            </div>
+        </form>
+    
+    </main>
+
+    <footer>
+        <div class="footer">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/kirill-shabanov-1ab72a206" target="_blank"><img src="images/icons-default/LinkedIn.svg" width="32"></a></li>
+                <li><a href="https://github.com/kirillshbnv" target="_blank"><img src="images/icons-dark/Github-Dark.svg" width="32"></a></li>
+                <li><a href="https://x.com/kirillshbnv" target="_blank"><img src="images/icons-default/X.svg" width="32"></a></li>
+            </ul>
+            <p>&copy; 2025 Kirill Shabanov. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

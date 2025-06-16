@@ -1,0 +1,187 @@
+/* --------------------------------------------------
+   Base Styles & Resets
+-------------------------------------------------- */
+
+body {
+    background-image: linear-gradient(#131133 37%, #4a4a4e 150%, #acabab);
+    background-attachment: fixed;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+/* --------------------------------------------------
+   Typography
+-------------------------------------------------- */
+
+h1, h2, h3 {
+    color: #66CCFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, label, li, table {
+    color: #D1D5DB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --------------------------------------------------
+   Header & Logo
+-------------------------------------------------- */
+
+.header-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin: 50px 0 50px 0;
+    padding: 0;
+}
+
+#header-logo {
+    width: 85%;
+    max-width: 180px;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.header-container a {
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.header-title h1 {
+    font-size: 4.25rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title p {
+    font-size: 1.5rem;
+    color: #D1D5DB;
+}
+
+/* --------------------------------------------------
+   Navigation Bar
+-------------------------------------------------- */
+
+.navbar {
+    width: 100%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    color: #66CCFF;
+}
+
+#current-page {
+    background-color: #43a4f3;
+}
+
+#current-page:hover {
+    color: #ffffff;
+}
+
+/* --------------------------------------------------
+   Main
+-------------------------------------------------- */
+
+#page-title {
+    text-align: center;
+    font-size: 42px;
+    color: #D1D5DB;
+}
+
+/* --------------------------------------------------
+   Footer
+-------------------------------------------------- */
+
+.footer {
+    width: 90%;
+    margin: 75px auto 0 auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.footer p {
+    color: #D1D5DB;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 10px 0 10px 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    padding: 0 10px 0 10px;
+}
+
+.footer img {
+    width: 2.5rem;
+}
+
+.footer a {
+    color: #228dbe;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#contact-me {
+    text-decoration: underline;
+    color: #99E6FF;
+}
+
+/* --------------------------------------------------
+   Accessibility Focus Styles
+-------------------------------------------------- */
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 2px solid #66CCFF;
+    outline-offset: 2px;
+}
+
+/* --------------------------------------------------
+   Updated Background Contrast
+   (Apply these class-level overrides in your other page-specific styles too)
+-------------------------------------------------- */
+
+.grid-item,
+.project,
+.stack-group {
+    background-color: #d1d1d1; /* Better contrast than #acaaaa */
+    color: #131133;
+}

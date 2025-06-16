@@ -1,0 +1,66 @@
+/* --------------------------------------------------
+   Hero Section
+-------------------------------------------------- */
+
+.hero {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero a {
+    color: #6bbcff;
+}
+
+#projects-link {
+    font-size: 20px;
+    margin-top: 55px;
+}
+
+/* --------------------------------------------------
+   Tech Stack
+-------------------------------------------------- */
+
+.tech-stack h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-top: 50px;
+}
+
+.tech-stack-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 790px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.stack-group {
+    background-color: #d1d1d1;  /* Updated from #acaaaa */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #131133;
+}
+
+.stack-group h3 {
+    color: #131133;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.icon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-grid img {
+    width: 50px;
+    height: 50px;
+}

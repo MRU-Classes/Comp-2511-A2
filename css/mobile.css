@@ -1,0 +1,133 @@
+@media only screen and (max-width: 590px) {
+
+    /* --------------------------------------------------
+    Base Style
+    -------------------------------------------------- */
+
+    /* Main Header */
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .header-title h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .header-title p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #header-logo {
+        max-width: 120px;
+        margin-bottom: 15px;
+    }
+
+    /* Navigation Bar */
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    main {
+        margin: 0 auto;
+    }
+
+    /* --------------------------------------------------
+    Home Page
+    -------------------------------------------------- */
+
+    /* Tech Stack */
+    .tech-stack-grid {
+        display: block;
+    }
+
+    .stack-group {
+        margin-bottom: 30px;
+        color: #131133;
+    }
+
+    /* ============================
+    About Me Page
+    ============================ */
+
+    .about-grid {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .grid-item {
+        margin-bottom: 30px;
+        color: #131133;
+    }
+
+    .grid-item h2 {
+        font-size: 1.25rem;
+    }
+
+    .grid-item p,
+    .grid-item li {
+        font-size: 0.95rem;
+    }
+
+    .portrait {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    /* --------------------------------------------------
+    Projects Page
+    -------------------------------------------------- */
+
+    .projects-grid {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
+
+    .project {
+        color: #131133;
+    }
+
+    /* --------------------------------------------------
+    Contact Page
+    -------------------------------------------------- */
+
+    .contact-user-container {
+        display: grid;
+        grid-template-columns: 4fr 4fr;
+        width: 100%;
+    }
+
+    .contact-form-container {
+        width: 75%;
+    }
+
+    .contact-reason-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .contact-reason-container label {
+        display: flex;
+        gap: 8px;
+    }
+
+    .submit-reset-container {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    #submit, #reset {
+        width: 100%;
+        text-align: center;
+    }
+}

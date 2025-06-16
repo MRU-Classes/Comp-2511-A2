@@ -1,0 +1,59 @@
+/* ----------------------------
+   Grid Layout
+---------------------------- */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 790px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.grid-item {
+    background-color: #d1d1d1;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.grid-item.wide {
+    grid-column: span 2;
+}
+
+/* ----------------------------
+   Typography & Spacing
+---------------------------- */
+
+.grid-item h2 {
+    color: #131133;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.grid-item p,
+.grid-item li {
+    color: #131133;
+    line-height: 1.6;
+}
+
+.grid-item ul {
+    padding-left: 20px;
+}
+
+/* ----------------------------
+   Portrait
+---------------------------- */
+
+.portrait {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.portrait img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+    margin-bottom: 50px;
+}

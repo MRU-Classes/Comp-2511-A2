@@ -1,0 +1,24 @@
+/* --------------------------------------------------
+   Projects Grid
+-------------------------------------------------- */
+
+h2, p, li {
+    color: #131133;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.project {
+    background-color: #d1d1d1;  /* Updated from #acaaaa */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #131133;             /* Ensures legibility */
+    margin-bottom: 10px;
+}
